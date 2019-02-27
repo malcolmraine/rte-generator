@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<component name="imu">
+    <periodics>
+        <periodic name="init_Imu" period="0"/>
+        <periodic name="per1_Imu" period="50"/>
+        <periodic name="per2_Imu" period="25"/>
+        <periodic name="init_GPS" period="0"/>
+        <periodic name="per1_GPS" period="50"/>
+        <periodic name="per2_GPS" period="50"/>
+    </periodics>
+    <Rte_variables>
+        <var name="yaw" type="float"/>
+        <var name="pitch" type="float"/>
+        <var name="roll" type="float"/>
+    </Rte_variables>
+</component>
