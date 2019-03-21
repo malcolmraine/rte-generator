@@ -76,8 +76,7 @@ class ComponentGen:
         file_contents = header + \
                         "#ifndef " + project_name.upper() + "_" + component_name.upper() + "_H" + self.nl(1) + \
                         "#define  " + project_name.upper() + "_" + component_name.upper() + "_H" + self.nl(1) + \
-                        self.section_header(self, "HEADER FILES") + \
-                        "#include " + '"' + file_path + ".h" + '"' + self.nl(2) + \
+                        self.section_header(self, "HEADER FILES") + self.nl(2) + \
                         self.section_header(self, "DEFINES") + self.nl(2) + \
                         self.section_header(self, "GLOBAL VARIABLES") + self.nl(2) + \
                         self.section_header(self, "FUNCTION PROTOTYPES") + \

@@ -1,5 +1,5 @@
 /*
- * Generated: 2019-02-27 16:42:38
+ * Generated: 2019-03-11 13:05:16
  * User: malcolmhall
 */#ifndef TRACKEDROBOTVEHICLE_MAIN_H
 #define  TRACKEDROBOTVEHICLE_MAIN_H
@@ -19,8 +19,9 @@ typedef void TASK;
 * FUNCTION PROTOTYPES
 ****************************************************************************************/
 TASK group_0ms(void);
-TASK group_50ms(void);
-TASK group_25ms(void);
+TASK group_10ms(void);
+TASK group_5ms(void);
+TASK group_20ms(void);
 
 
 #endif //TRACKEDROBOTVEHICLE_MAIN_H

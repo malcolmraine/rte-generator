@@ -1,14 +1,12 @@
 /*
  * Generated: 2019-03-11 13:05:16
  * User: malcolmhall
-*/#ifndef TRACKEDROBOTVEHICLE_MAIN_H
-#define  TRACKEDROBOTVEHICLE_MAIN_H
+*/
 /****************************************************************************************
 * HEADER FILES
 ****************************************************************************************/
-#include "main/include/main.h"
-#include "main/includes/task_groups.h"
-#include "main/includes/Rte.h"
+#include "encoder_driver/source/encoder_driver.h"
+#include "Rte_encoder_driver.h"
 
 /****************************************************************************************
 * DEFINES
@@ -21,9 +19,40 @@
 
 
 /****************************************************************************************
-* FUNCTION PROTOTYPES
+* FUNCTION IMPLEMENTATIONS
 ****************************************************************************************/
-#endif //TRACKEDROBOTVEHICLE_MAIN_H
+void init_EncoderDrv(void)
+{
+	/*	Begin local variables	*/
+
+	/*	End local variables	*/
+
+
+}
+
+
+void per1_EncoderDrv(void)
+{
+	/*	Begin local variables	*/
+
+	/*	End local variables	*/
+
+
+}
+
+
+void per2_EncoderDrv(void)
+{
+	/*	Begin local variables	*/
+
+	/*	End local variables	*/
+
+
+}
+
+
+
+
 /****************************************************************************************
 * END OF FILE
 ****************************************************************************************/

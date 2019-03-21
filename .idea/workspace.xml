@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f0b5cbb-49e9-4b41-a9fc-319c8dcb856e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/component_description.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component_description.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_description_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_description_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component_main_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/component_main_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imu/doc/imu_Description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imu/include/Rte_imu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imu/include/imu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imu/source/imu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/doc/main_Description.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/include/Rte.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/include/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/include/task_groups.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/source/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/source/task_groups.c" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component_description_parser.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="339">
+                <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+                <folding>
+                  <element signature="e#0#34#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-161" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/component_gen.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="486">
+                <caret line="78" column="74" selection-start-line="78" selection-start-column="74" selection-end-line="78" selection-end-column="74" />
+                <folding>
+                  <element signature="e#0#9#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-161" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gps/source/gps.c" />
+        <option value="$PROJECT_DIR$/motor_controller/source/motor_controller.c" />
+        <option value="$PROJECT_DIR$/motor_controller/include/motor_controller.h" />
+        <option value="$PROJECT_DIR$/component_gen.py" />
+        <option value="$PROJECT_DIR$/component_description_parser.py" />
+        <option value="$PROJECT_DIR$/component_main_gen.py" />
+        <option value="$PROJECT_DIR$/component_description.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="944" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="encoder_driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="encoder_driver" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="encoder_driver" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="motor_controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="motor_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rte-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rte-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="motor_controller" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="component_description_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rte-generator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/component_description_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.component_description_parser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f0b5cbb-49e9-4b41-a9fc-319c8dcb856e" name="Default Changelist" comment="" />
+      <created>1551321347473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551321347473</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="944" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main/include/main.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gps/include/Rte_gps.h" />
+    <entry file="file://$PROJECT_DIR$/gps/source/gps.c" />
+    <entry file="file://$PROJECT_DIR$/imu/source/imu.c" />
+    <entry file="file://$PROJECT_DIR$/imu/include/imu.h" />
+    <entry file="file://$PROJECT_DIR$/imu/include/Rte_imu.h" />
+    <entry file="file://$PROJECT_DIR$/component_main_gen.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="3013">
+            <caret line="132" column="45" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
+            <folding>
+              <element signature="e#0#9#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motor_controller/source/motor_controller.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/source/task_groups.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/source/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/include/task_groups.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motor_controller/include/motor_controller.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encoder_driver/include/encoder_driver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motor_controller/include/Rte_motor_controller.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/include/Rte.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="80" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encoder_driver/include/Rte_encoder_driver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component_description.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/encoder_driver/source/encoder_driver.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component_description_parser.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="339">
+            <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            <folding>
+              <element signature="e#0#34#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component_gen.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="486">
+            <caret line="78" column="74" selection-start-line="78" selection-start-column="74" selection-end-line="78" selection-end-column="74" />
+            <folding>
+              <element signature="e#0#9#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

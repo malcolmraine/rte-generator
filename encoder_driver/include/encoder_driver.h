@@ -1,12 +1,12 @@
 /*
- * Generated: 2019-02-27 16:42:38
+ * Generated: 2019-03-11 13:05:16
  * User: malcolmhall
-*/
+*/#ifndef TRACKEDROBOTVEHICLE_ENCODER_DRIVER_H
+#define  TRACKEDROBOTVEHICLE_ENCODER_DRIVER_H
 /****************************************************************************************
 * HEADER FILES
 ****************************************************************************************/
-#include "imu/source/imu.h"
-#include "Rte_imu.h"
+
 
 /****************************************************************************************
 * DEFINES
@@ -19,70 +19,14 @@
 
 
 /****************************************************************************************
-* FUNCTION IMPLEMENTATIONS
+* FUNCTION PROTOTYPES
 ****************************************************************************************/
-void init_Imu(void)
-{
-	/*	Begin local variables	*/
-
-	/*	End local variables	*/
+void init_EncoderDrv( void );
+void per1_EncoderDrv( void );
+void per2_EncoderDrv( void );
 
 
-}
-
-
-void per1_Imu(void)
-{
-	/*	Begin local variables	*/
-
-	/*	End local variables	*/
-
-
-}
-
-
-void per2_Imu(void)
-{
-	/*	Begin local variables	*/
-
-	/*	End local variables	*/
-
-
-}
-
-
-void init_GPS(void)
-{
-	/*	Begin local variables	*/
-
-	/*	End local variables	*/
-
-
-}
-
-
-void per1_GPS(void)
-{
-	/*	Begin local variables	*/
-
-	/*	End local variables	*/
-
-
-}
-
-
-void per2_GPS(void)
-{
-	/*	Begin local variables	*/
-
-	/*	End local variables	*/
-
-
-}
-
-
-
-
+#endif //TRACKEDROBOTVEHICLE_ENCODER_DRIVER_H
 /****************************************************************************************
 * END OF FILE
 ****************************************************************************************/

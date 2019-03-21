@@ -1,5 +1,5 @@
 /*
- * Generated: 2019-02-27 16:42:38
+ * Generated: 2019-03-11 13:05:16
  * User: malcolmhall
 */
 /****************************************************************************************
@@ -25,28 +25,34 @@
 TASK group_0ms(void)
 {	for ( ; ; )
 	{
-		void init_Imu(void);
-		void init_GPS(void);
+		void init_MotorCtrl(void);
 	}
 }
 
 
-/*	Task for 50ms periodics	*/
-TASK group_50ms(void)
+/*	Task for 10ms periodics	*/
+TASK group_10ms(void)
 {	for ( ; ; )
 	{
-		void per1_Imu(void);
-		void per1_GPS(void);
-		void per2_GPS(void);
+		void per1_EncoderDrv(void);
 	}
 }
 
 
-/*	Task for 25ms periodics	*/
-TASK group_25ms(void)
+/*	Task for 5ms periodics	*/
+TASK group_5ms(void)
 {	for ( ; ; )
 	{
-		void per2_Imu(void);
+		void per2_EncoderDrv(void);
+	}
+}
+
+
+/*	Task for 20ms periodics	*/
+TASK group_20ms(void)
+{	for ( ; ; )
+	{
+		void per1_MotorCtrl(void);
 	}
 }
 

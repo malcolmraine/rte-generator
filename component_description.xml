@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-
-<component name="imu">
-    <periodics>
-        <periodic name="init_Imu" period="0"/>
-        <periodic name="per1_Imu" period="50"/>
-        <periodic name="per2_Imu" period="25"/>
-        <periodic name="init_GPS" period="0"/>
-        <periodic name="per1_GPS" period="50"/>
-        <periodic name="per2_GPS" period="50"/>
-    </periodics>
-    <Rte_variables>
-        <var name="yaw" type="float"/>
-        <var name="pitch" type="float"/>
-        <var name="roll" type="float"/>
-    </Rte_variables>
-</component>
+<project name="TrackedRobotVehicle">
+    <component name="encoder_driver">
+        <periodics>
+            <periodic name="init_EncoderDrv" period="0"/>
+            <periodic name="per1_EncoderDrv" period="10"/>
+            <periodic name="per2_EncoderDrv" period="5"/>
+        </periodics>
+        <Rte_variables>
+            <var name="EncoderSysState" type="uint8_t"/>
+            <var name="MotorPositionLeft" type="float"/>
+            <var name="MotorPositionRight" type="float"/>
+            <var name="EncoderPreviousTime" type="uint32_t"/>
+            <var name="EncoderCurrentTime" type="uint32_t"/>
+            <var name="TrackSpeedLeft" type="float"/>
+            <var name="TrackSpeedRight" type="float"/>
+            <var name="EncoderFilValLeft" type="float"/>
+            <var name="EncoderFilValRight" type="float"/>
+        </Rte_variables>
+    </component>
+    <component name="motor_controller">
+        <periodics>
+            <periodic name="init_MotorCtrl" period="0"/>
+            <periodic name="per1_MotorCtrl" period="20"/>
+        </periodics>
+        <Rte_variables>
+            <var name="MotorCtrlSysState" type="uint8_t"/>
+            <var name="speed_cmd" type="float"/>
+            <var name="steer_cmd" type="float"/>
+            <var name="left_track_pwm" type="float"/>
+            <var name="right_track_pwm" type="float"/>
+        </Rte_variables>
+    </component>
+</project>

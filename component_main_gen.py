@@ -129,9 +129,11 @@ class MainComponentGen:
             rte_var = " Rte_" + (rte_list[n])[0]
             rte_read = rte_type + " Rte_Read_" + (rte_list[n])[0]
             rte_write = "void Rte_Write_" + (rte_list[n])[0]
-            rte_var_string = rte_var_string + rte_type + rte_var + ";" + self.nl(1)
-            rte_func_string = rte_func_string + "inline " + rte_read + "() { return " + rte_var + "; }\n" + \
-                              "inline " + rte_write + "(" + rte_type+ " x) {" + rte_var + " = " + "x }\n\n"
+
+            if rte_var not in rte_var_string:
+                rte_var_string = rte_var_string + rte_type + rte_var + ";" + self.nl(1)
+                rte_func_string = rte_func_string + "inline " + rte_read + "() { return " + rte_var + "; }\n" + \
+                                  "inline " + rte_write + "(" + rte_type+ " x) {" + rte_var + " = " + "x }\n\n"
 
         header = "/*\n * Generated: " + str(datetime.datetime.now())[:-7] + "\n * User: " + str(os.getlogin()) + "\n*/"
         file_contents = header + \

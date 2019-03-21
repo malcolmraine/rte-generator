@@ -1,12 +1,12 @@
 /*
- * Generated: 2019-02-27 16:42:38
+ * Generated: 2019-03-11 13:05:16
  * User: malcolmhall
-*/#ifndef TRACKEDROBOTVEHICLE_IMU_H
-#define  TRACKEDROBOTVEHICLE_IMU_H
+*/#ifndef TRACKEDROBOTVEHICLE_MOTOR_CONTROLLER_H
+#define  TRACKEDROBOTVEHICLE_MOTOR_CONTROLLER_H
 /****************************************************************************************
 * HEADER FILES
 ****************************************************************************************/
-#include "imu/include/imu.h"
+
 
 /****************************************************************************************
 * DEFINES
@@ -21,15 +21,11 @@
 /****************************************************************************************
 * FUNCTION PROTOTYPES
 ****************************************************************************************/
-void init_Imu( void );
-void per1_Imu( void );
-void per2_Imu( void );
-void init_GPS( void );
-void per1_GPS( void );
-void per2_GPS( void );
+void init_MotorCtrl( void );
+void per1_MotorCtrl( void );
 
 
-#endif //TRACKEDROBOTVEHICLE_IMU_H
+#endif //TRACKEDROBOTVEHICLE_MOTOR_CONTROLLER_H
 /****************************************************************************************
 * END OF FILE
 ****************************************************************************************/
